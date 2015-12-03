@@ -1,0 +1,46 @@
+<html>
+<body>	
+<form>		
+<table>
+		
+		
+<tr><td>What kind of car would you like to buy</td></tr>
+<tr><td></br><form>
+  <input type="radio" name="car" value="Proton" checked> Proton
+  <input type="radio" name="car" value="Honda"> Honda
+  <input type="radio" name="car" value="Ferrari"> Ferrari
+  <input type="radio" name="car" value="Ford"> Ford
+</form></td></tr>
+<tr><td></br>What color?</td></tr></br>
+<tr><td></br><select>
+  <option value="White">White</option>
+  <option value="Red">Red</option>
+  <option value="Black">Black</option>
+  <option value="Blue">Blue</option>
+</select>Other: <input type="text" name="color"><br></td></tr>
+<tr><td></br>What do you like about the car?</td></tr>
+<tr><td><textarea rows="5" cols="50"></textarea></td></tr>
+		
+<tr><td>Tell us how to get in touch.</td></tr>
+
+<tr><td>Name: &nbsp<input type="text" name="Name"> </td></tr>
+	
+<tr><td>Email: &nbsp <input type="email" name="email"> </td></tr>
+
+<tr><td>Tel: &nbsp<input type="tel" name="usrtel"> </td></tr>
+	
+<tr><td>Fax: &nbsp<input type="text"></td></tr>
+	
+<tr><td>checkbox Please contact me.name="contact" value="contact"></td></tr>
+	
+<tr><td>submit &nbsp Clear </td></tr>
+				
+</table>
+<input type="submit" value="Send">&nbsp
+<input type="reset" value="clear">
+</form>
+
+</body>
+
+
+</html>
